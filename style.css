@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    color: white;
+    height: 80px;
+    background-color:#3834a2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    margin-left: 1.1rem;
+    cursor: pointer;
+}
+.nav-menu{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 7vw;
+    margin-right: 2rem;
+}
+.nav-menu i{
+    display: none;
+}
+.next-contant{
+    height: calc(100% - 80px);
+    display: flex;
+}
+.peragraph{
+    line-height: 1.4rem;
+    padding-top: 7.5rem;
+    padding-left: 1.3rem;
+    width: 50%;
+    /* background-color: brown; */
+}
+.photo{
+    margin-left: 5rem;
+    position: relative;
+}
+h6{
+    font-size: 1.4rem;
+}
+p{
+    font-weight: 400;
+}
+#Lorem{
+    display: flex;
+    margin-top: 25px;
+}
+h6{
+    font-weight: bolder;
+    display: flex;
+    margin-top: 10px;
+    color: #1c17a7;
+}
+h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #1c17a7;
+}
+.button-main{
+    display: flex;
+    gap: 1rem;
+}
+#Hire{
+    color: white;
+    cursor: pointer;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 8px;
+    background-color:#3834a2;
+}
+#Talk{
+    cursor: pointer;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 8px;
+    background-color:#3834a2;
+    color: white;
+}
+@media (max-width:600px) {
+   
+    .nav-logo h1{
+        margin-left: 1.1rem;
+    }
+    .navbar{
+        background-color: 
+        #8360c3
+        → 
+        #2ebf91;
+        color: white;
+        width: 100%;
+    }
+    .nav-menu i{
+        display: unset;
+        font-size:x-large;
+        font-weight: bolder;
+    }
+    .nav-menu h4{
+        display: none;
+    }
+    .peragraph{
+        width: 100%;
+        height: 60%;
+        padding: 4rem 18px
+  
+    }
+   .next-contant{
+    width: 100%;
+    height: calc(100% - 80px);
+    flex-direction: column;
+   }
+   .photo img{
+        width: 100%;
+    height: 250px;
+
+   }
+  
+   #lorem{
+    font-size: small;
+    margin-bottom: 1rem;
+   }
+   .peragraph h2{
+    line-height: 2rem;
+    font-size: 1.7rem;
+   }
+   .peragraph h6{
+    font-size: medium;
+   }
+
+   #lorem{
+    line-height: 0.9rem;
+    font-size: 11px;
+   }
+   span button{
+    height: 6vh;
+    width: 26vw;
+   }
+ #Talk button{
+   height: 6vh;
+    width: 26vw;
+   }
+   #Hire{
+    height: 6vh;
+    width: 24vw;
+}
+   #Talk{
+    height: 6vh;
+    width: 24vw;
+   }
+   .photo{
+    margin-left: 0%;
+    position: relative;
+    top: 5rem;
+   }
+}
